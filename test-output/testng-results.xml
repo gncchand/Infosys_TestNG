@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<br><img src='C:\Users\tanvi\Downloads\06-11-20-05-30-40.png' height='300' width='300'/><br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26304" started-at="2020-11-06T17:30:14 IST" finished-at="2020-11-06T17:30:40 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26304" started-at="2020-11-06T17:30:14 IST" finished-at="2020-11-06T17:30:40 IST">
+      <class name="tests.SoftAssert_GoogleTitle">
+        <test-method status="PASS" signature="title_verify()[pri:0, instance:tests.SoftAssert_GoogleTitle@72b6cbcc]" name="title_verify" duration-ms="26164" started-at="2020-11-06T17:30:14 IST" finished-at="2020-11-06T17:30:40 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[<br><img src='C:\Users\tanvi\Downloads\06-11-20-05-30-40.png' height='300' width='300'/><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- title_verify -->
+      </class> <!-- tests.SoftAssert_GoogleTitle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

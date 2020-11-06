@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+
+ 
+<!--
+       <test name="Test">
+    <classes>
+      <class name="tests.AppLogin_from_Excel"/>
+      <!--class name="tests.AppLogin_from_DataProvider"/>
+    </classes>
+  </test> 
+      -->
+      
+  
+  <test name="chrome">
+  <parameter name="bt" value="chrome"/>
+    <classes>
+           <class name="tests.CrossBrowser_Test"/>
+    </classes>
+  </test> 
+
+  <test name="firefox">
+  <parameter name="bt" value="firefox"/>
+    <classes>
+        <class name="tests.CrossBrowser_Test"/>
+    </classes>
+  </test> 
+  
+</suite> <!-- Suite -->
