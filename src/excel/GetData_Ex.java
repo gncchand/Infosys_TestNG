@@ -47,4 +47,4 @@ public class GetData_Ex
 	return data; 
 	}//method end
 	
-}//end class
+}//end of class
